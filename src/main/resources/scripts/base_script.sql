@@ -22,6 +22,11 @@ VALUES ('Oliver','DNI10054725','DNI','10054725');
 INSERT INTO USERS (name,username,tipDoc,nroDoc)
 VALUES ('Bruno','DNI72584671','DNI','72584671');
 
+create procedure listarRegistros()
+	  begin
+	      select * from users;
+	  end
+
 update users set name='Matt' where username ='DNI72584671'
 
 select * from users
