@@ -39,5 +39,3 @@ build/
 
 ##Se comenta el application properties
 src/main/resources/application.properties
-
-README.md
